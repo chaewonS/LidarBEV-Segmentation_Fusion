@@ -6,3 +6,6 @@
 - LiDAR point cloud -> 2D Image
 - 산업용 PC에 세팅
 - bag 파일 재생
+
+---
+참조코드: https://github.com/beltransen/lidar_bev
