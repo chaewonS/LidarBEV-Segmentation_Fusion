@@ -17,3 +17,9 @@ https://github.com/mjshiggins/ros-examples
 ``` source ~/tutorial_ws/src/ros-examples/devel/setup.bash ```  
 ``` rosrun lidar lidar_node ```  
 ``` rosbag play -l first_clock.bag ```
++ tutorial_ws/src/ros-examples/build, devel, imags, src
++ src/lidar, CMakeLists.txt
++ lidar/src, CMakeLists.txt
++ src/lidar_node.cpp
+  + 헤더 파일 추가 및 수정
+  + opencv 버전 체크
