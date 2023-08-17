@@ -13,7 +13,7 @@ https://github.com/beltransen/lidar_bev
 https://github.com/mjshiggins/ros-examples
 
 ## LiDAR data -> 2D Image
-``` catkin_make ```
-``` source ~/tutorial_ws/src/ros-examples/devel/setup.bash ```
-``` rosrun lidar lidar_node ```
+``` catkin_make ```  
+``` source ~/tutorial_ws/src/ros-examples/devel/setup.bash ```  
+``` rosrun lidar lidar_node ```  
 ``` rosbag play -l first_clock.bag ```
