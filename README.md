@@ -8,6 +8,12 @@
 - bag 파일 재생
 
 ---
-참조코드: https://github.com/beltransen/lidar_bev, https://github.com/mjshiggins/ros-examples
+참조코드:   
+https://github.com/beltransen/lidar_bev          
+https://github.com/mjshiggins/ros-examples
 
-
+## LiDAR data -> 2D Image
+``` catkin_make ```
+``` source ~/tutorial_ws/src/ros-examples/devel/setup.bash ```
+``` rosrun lidar lidar_node ```
+``` rosbag play -l first_clock.bag ```
