@@ -16,6 +16,7 @@
 #include <pcl/point_types.h>
 #include <pcl/io/pcd_io.h>
 
+// 수정된 부분
 #include <cv_bridge/cv_bridge.h>
 #include <opencv2/opencv.hpp>
 #include <opencv2/core.hpp>
@@ -179,6 +180,7 @@ int main(int argc, char** argv)
   // Setup Image Output Parameters
   fnameCounter = 0;
   lowest = FLT_MAX;
+  // 수정된 부분
   compression_params.push_back(cv::IMWRITE_PNG_COMPRESSION);
   compression_params.push_back(9);
 
