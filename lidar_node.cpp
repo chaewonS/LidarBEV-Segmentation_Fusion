@@ -1,5 +1,5 @@
 // ROS Point Cloud DEM Generation
-// MacCallister Higgins
+// MacCallister Higgins 
 
 #include <cmath>
 #include <vector>
